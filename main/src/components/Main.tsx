@@ -135,7 +135,7 @@ function Main() {
               <Link href="/reach">
                 <Button
                   variant="outline"
-                  className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3 font-mulish"
+                  className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-8 font-mulish"
                 >
                   More
                 </Button>
