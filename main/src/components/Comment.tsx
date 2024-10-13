@@ -24,7 +24,7 @@ function Comment() {
                 <CarouselContent className="flex items-center content-center text-center">
                   <CarouselItem>
                     <div className="flex">
-                      <div className="pt-5">
+                      <div>
                         <Image
                           src="/img/com.svg"
                           alt="logo"
@@ -34,26 +34,22 @@ function Comment() {
                         />
                       </div>
                       <div className="max-w-md pt-4 text-left pl-4 text-[rgb(26,_33,_47)] font-mulish text-[16px] font-medium leading-[140%]">
-                        I highly recommend this company for international
-                        shipping! Their service is reliable, efficient, and
-                        always delivered with great professionalism. From start
-                        to finish, they handle every aspect of the logistics
-                        process with care, ensuring that goods arrive on time
-                        and in perfect condition.
+                        Raffles&#96; unmatched expertise in logistics and
+                        trading has consistently exceeded our expectations.
                       </div>
                     </div>
-                    <div className="flex items-center justify-around pt-4">
+                    <div className="flex items-center justify-end pt-10">
                       <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px]  leading-[17px]">
-                        David Smith
+                        John Anderson
                       </div>
-                      <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px] leading-[17px] text-left">
+                      {/* <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px] leading-[17px] text-left">
                         23 September 2023
-                      </div>
+                      </div> */}
                     </div>
                   </CarouselItem>
                   <CarouselItem>
                     <div className="flex">
-                      <div className="pt-5">
+                      <div>
                         <Image
                           src="/img/com.svg"
                           alt="logo"
@@ -63,25 +59,23 @@ function Comment() {
                         />
                       </div>
                       <div className="max-w-md pt-4 text-left pl-4 text-[rgb(26,_33,_47)] font-mulish text-[16px] font-medium leading-[140%]">
-                        I had an excellent experience with this company for my
-                        international shipping needs! Their team was attentive
-                        and proactive, keeping me informed at every step. The
-                        shipment arrived on schedule and in perfect condition,
-                        showcasing their commitment to quality service.
+                        Raffles&#96; global network and commitment to excellence
+                        have been instrumental in our international trading
+                        success.
                       </div>
                     </div>
-                    <div className="flex items-center justify-around pt-4">
+                    <div className="flex items-center justify-end pt-10">
                       <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px]  leading-[17px]">
-                        Maria Johnson
+                        Sarah Lee
                       </div>
-                      <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px] leading-[17px] text-left">
+                      {/* <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px] leading-[17px] text-left">
                         7 February 2024
-                      </div>
+                      </div> */}
                     </div>
                   </CarouselItem>
                   <CarouselItem>
                     <div className="flex">
-                      <div className="pt-5">
+                      <div>
                         <Image
                           src="/img/com.svg"
                           alt="logo"
@@ -91,20 +85,17 @@ function Comment() {
                         />
                       </div>
                       <div className="max-w-md pt-4 text-left pl-4 text-[rgb(26,_33,_47)] font-mulish text-[16px] font-medium leading-[140%]">
-                        I can&apos;t thank this company enough for their
-                        outstanding shipping services! They provided a smooth
-                        and reliable experience, ensuring my goods were
-                        delivered on time and in excellent condition. Their
-                        attention to detail is truly commendable!
+                        Choosing Raffles for our logistics needs has optimized
+                        our supply chain and reduced costs.
                       </div>
                     </div>
-                    <div className="flex items-center justify-around pt-4">
+                    <div className="flex items-center justify-end pt-10">
                       <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px]  leading-[17px]">
-                        Sarah Williams
+                        Michael Johnson
                       </div>
-                      <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px] leading-[17px] text-left">
+                      {/* <div className="text-[rgb(132,_132,_132)] font-mulish text-[14px] leading-[17px] text-left">
                         21 May 2024
-                      </div>
+                      </div> */}
                     </div>
                   </CarouselItem>
                 </CarouselContent>

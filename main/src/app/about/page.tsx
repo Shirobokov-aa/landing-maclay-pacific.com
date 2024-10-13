@@ -11,11 +11,20 @@ const About = () => {
   return (
     <div>
       <Header />
-      <div className="max-w-7xl mx-auto my-0 pt-24 px-8">
-        <h1 className="text-[rgb(26,_26,_26)] font-mulish text-[44px] font-semibold leading-[115%]">
+      <div className="max-w-7xl mx-auto my-0 px-8 pt-24">
+        <div>
+          <Image
+            src="/img/bg-about.png"
+            alt="about-1"
+            width={1440}
+            height={400}
+            className="py-6"
+          />
+        </div>
+        <h1 className="text-[rgb(26,_26,_26)] font-mulish text-[44px] font-semibold leading-[115%] pt-7 uppercase">
           About Us
         </h1>
-        <div className="">
+        <div>
           <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
             Raffles is a Singapore-based significant logistics and trade company
             that offers comprehensive solutions for freight forwarding, supply
@@ -23,7 +32,7 @@ const About = () => {
             presence in the market and has established itself as a reliable and
             trusted partner for enterprises worldwide.
           </p>
-          <div className="">
+          {/* <div>
             <Image
               src="/img/bg-about.png"
               alt="about-1"
@@ -31,7 +40,7 @@ const About = () => {
               height={400}
               className="py-6"
             />
-          </div>
+          </div> */}
           <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
             As a logistics provider, Raffles offers a wide range of services to
             facilitate the movement of goods efficiently and securely. Their
@@ -53,39 +62,37 @@ const About = () => {
             forefront of the industry, driving growth and success for its
             clients in the dynamic world of international trade.
           </p>
-          <div className="">
-            <Image
-              src="/img/bg-about2.png"
-              alt="about-1"
-              width={1440}
-              height={400}
-              className="py-6"
-            />
-          </div>
         </div>
-        {/* <div className="">
-          <div className="pt-16 text-[rgb(26,_26,_26)] font-mulish text-[44px] font-semibold leading-[115%]">
-            Our Mission
-          </div>
-          <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
-            To provide superior logistics and trading solutions that enable
-            businesses to prosper in the global economy by delivering
-            dependable, efficient, and innovative services.
-          </p>
+        <div>
+          <Image
+            src="/img/bg-about2.png"
+            alt="about-1"
+            width={1440}
+            height={400}
+            className="py-6"
+          />
         </div>
-        <div className="">
-          <div className="pt-16 text-[rgb(26,_26,_26)] font-mulish text-[44px] font-semibold leading-[115%]">
-            Our Vision
-          </div>
-          <p className="text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
-            To be the preferred logistics and trading services partner,
-            recognized for our experience, dependability, and dedication to
-            customer satisfaction, while creating growth and sustainability for
-            our clients.
-          </p>
-        </div> */}
-        <div className="">
-          <div className="pt-16 text-[rgb(26,_26,_26)] font-mulish text-[44px] font-semibold leading-[115%]">
+
+        <div className="text-[rgb(26,_26,_26)] font-mulish text-[44px] font-semibold leading-[115%] pt-10 uppercase">
+          Our Mission
+        </div>
+        <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
+          To provide superior logistics and trading solutions that enable
+          businesses to prosper in the global economy by delivering dependable,
+          efficient, and innovative services.
+        </p>
+        <div className="text-[rgb(26,_26,_26)] font-mulish text-[44px] font-semibold leading-[115%] pt-10 uppercase">
+          Our Vission
+        </div>
+        <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
+          To be the preferred logistics and trading services partner, recognized
+          for our experience, dependability, and dedication to customer
+          satisfaction, while creating growth and sustainability for our
+          clients.
+        </p>
+
+        <div>
+          <div className="pt-10 text-[rgb(26,_26,_26)] font-mulish text-[44px] font-semibold leading-[115%] uppercase">
             Our Values
           </div>
           <div className="flex items-center justify-between text-center pt-16">

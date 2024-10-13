@@ -1,7 +1,6 @@
 "use client";
 import Comment from "./../components/Comment";
 import Image from "next/image";
-import Map from "@/components/Map";
 
 import { Button } from "@/components/ui/button";
 
@@ -28,17 +27,11 @@ function Main() {
               className="object-cover "
             />
             <div className="absolute top-1/2 left-16 transform -translate-y-1/2 text-white text-left z-10 font-mulish">
-              <h1 className="text-5xl font-bold mb-4 uppercase">
+              <h3 className="text-5xl font-bold mb-4 uppercase">
                 Delivering Excellence,
                 <br /> Every Step of the Way
-              </h1>
-              <p className="font-mulish text-[16px] font-normal leading-[140%] tracking-[0%] text-left">
-                We offer a full cycle of services — from purchasing goods from{" "}
-                <br />
-                manufacturers in China to delivering them to the end consumer in
-                Russia.
-              </p>
-              <Link href="/">
+              </h3>
+              <Link href="/reach">
                 <Button
                   variant="outline"
                   className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3"
@@ -56,17 +49,11 @@ function Main() {
               className="relative object-cover"
             />
             <div className="absolute top-1/2 left-16 transform -translate-y-1/2 text-white text-left z-10">
-              <h1 className="text-5xl font-bold mb-4 uppercase">
+              <h3 className="text-5xl font-bold mb-4 uppercase">
                 Your Trusted Partner in <br />
                 Logistics and Trading Solutions
-              </h1>
-              <p>
-                We offer a full cycle of services — from purchasing goods from{" "}
-                <br />
-                manufacturers in China to delivering them to the end consumer in
-                Russia.
-              </p>
-              <Link href="/">
+              </h3>
+              <Link href="/reach">
                 <Button
                   variant="outline"
                   className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 uppercase mt-3"
@@ -80,7 +67,7 @@ function Main() {
         <CarouselPrevious className="hidden" />
         <CarouselNext className="hidden" />
       </Carousel>
-      <div className="main">
+      <div className="main px-4">
         <div className="smt-14  m-auto max-w-7xl mt-20">
           <h2 className="text-center text-[rgb(20,_23,_31)] font-mulish text-4xl font-bold uppercase">
             Services we offer
@@ -104,12 +91,14 @@ function Main() {
                 ensure the safe and efficient transportation of your products.
               </div>
               <div>
-                <Button
-                  variant="outline"
-                  className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3 font-mulish"
-                >
-                  More
-                </Button>
+                <Link href="/reach">
+                  <Button
+                    variant="outline"
+                    className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3 font-mulish"
+                  >
+                    More
+                  </Button>
+                </Link>
               </div>
             </div>
             <div className="text-center flex justify-center items-center flex-col">
@@ -123,12 +112,14 @@ function Main() {
                 company leverages its extensive network and market knowledge to
                 facilitate international trade.
               </div>
-              <Button
-                variant="outline"
-                className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3 font-mulish"
-              >
-                More
-              </Button>
+              <Link href="/reach">
+                <Button
+                  variant="outline"
+                  className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3 font-mulish"
+                >
+                  More
+                </Button>
+              </Link>
             </div>
             <div className="text-center flex justify-center items-center flex-col">
               <Image src="/img/control.svg" alt="logo" width={48} height={48} />
@@ -136,19 +127,19 @@ function Main() {
                 Supply chain management
               </div>
               <div className="text-[rgb(50,_56,_71)] font-mulish text-md font-normal leading-[140%]">
-                We employ innovative technologies and industry best practices to
-                improve visibility, cut costs, and improve efficiency in demand
-                planning, inventory management, warehousing, transportation,
-                logistics optimization, real-time tracking, order fulfillment,
-                supply chain integration, customer satisfaction, and operational
-                scalability.
+                We employ innovative technologies and industry best practises to
+                improve visibility, cut costs, and improve efficiency br in
+                demand planning, inventory management, warehousing,
+                transportation, and order fulfillment.
               </div>
-              <Button
-                variant="outline"
-                className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3 font-mulish"
-              >
-                More
-              </Button>
+              <Link href="/reach">
+                <Button
+                  variant="outline"
+                  className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3 font-mulish"
+                >
+                  More
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
@@ -179,17 +170,18 @@ function Main() {
           </div>
 
           <div className="flex items-center justify-center">
-            <Button
-              variant="outline"
-              className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-6 font-mulish"
-            >
-              Read More
-            </Button>
+            <Link href="/about">
+              <Button
+                variant="outline"
+                className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-6 font-mulish"
+              >
+                Read More
+              </Button>
+            </Link>
           </div>
         </div>
-        <Comment />
-        <div className="pt-10">
-          <Map />
+        <div className="pb-10">
+          <Comment />
         </div>
       </div>
     </main>

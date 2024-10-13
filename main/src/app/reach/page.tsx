@@ -2,7 +2,8 @@
 
 import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
-import Map from "./../../components/Map";
+// import Map from "./../../components/Map";
+import GMap from "./../../components/GMap";
 import React from "react";
 
 import Link from "next/link";
@@ -12,7 +13,7 @@ const Reach = () => {
   return (
     <div>
       <Header />
-      <div className="pt-16">
+      <div className="pt-40">
         <div className="max-w-7xl mx-auto space-x-8 px-10">
           <div className="flex justify-between">
             <div className="lg:block lg:max-w-1/2 lg:w-full hidden px-6">
@@ -141,7 +142,8 @@ const Reach = () => {
         </div>
       </div>
       <div className="pt-16">
-        <Map />
+        <GMap />
+        {/* <Map /> */}
       </div>
       <Footer />
     </div>

@@ -3,9 +3,7 @@ import Image from "next/image";
 
 import { Mail } from "lucide-react";
 import { Phone } from "lucide-react";
-import { Instagram } from "lucide-react";
-import { Facebook } from "lucide-react";
-import { Twitter } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { MapPinned } from "lucide-react";
 
 import Link from "next/link";
@@ -19,19 +17,19 @@ function Footer() {
             <Image src="/img/logo-w.svg" alt="logo" width={90} height={55} />
           </div>
           <div className="pt-6 font-mulish">
-            &copy; 2024 Raffles. All rights reserved. Your trusted partner in
-            logistics and trading solutions. Connect with us for tailored
-            services that meet your needs.
+            Raffles is a trader who specializes in the sourcing and trading of
+            diverse things. The company facilitates international trade by
+            leveraging its broad network and market knowledge, with an emphasis
+            on hardware, metal scraps, textiles, and ferrous commodities.
           </div>
           <div className="flex pt-6 gap-2">
-            <Link href={"/"} className="hover:text-[#418DD9]">
-              <Instagram />
-            </Link>
-            <Link href={"/"} className="hover:text-[#418DD9]">
-              <Facebook />
-            </Link>
-            <Link href={"/"} className="hover:text-[#418DD9]">
-              <Twitter />
+            <Link href="/reach">
+              <Button
+                variant="outline"
+                className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white uppercase mt-3"
+              >
+                Know More
+              </Button>
             </Link>
           </div>
           <div className="pt-6"></div>
@@ -92,18 +90,6 @@ function Footer() {
           </Link>
         </div>
       </div>
-      {/* <div className="flex lg:items-center lg:flex-row lg:justify-between flex-col items-center pt-10 mx-auto max-w-7xl pb-14 font-mulish">
-        <div>COPYRIGHT 2023 | Mr.Ant</div>
-        <div className="flex">
-          <Link href={"/"} className="polytical hover:text-[#418DD9]">
-            Privacy Policy
-          </Link>
-          <div className="line pl-8 lg:block hidden">|</div>
-          <Link href={"/"} className="conditions pl-8 hover:text-[#418DD9]">
-            Terms & Conditions
-          </Link>
-        </div>
-      </div> */}
     </footer>
   );
 }
