@@ -26,7 +26,7 @@ function Main() {
               fill
               className="object-cover "
             />
-            <div className="absolute top-1/2 left-16 transform -translate-y-1/2 text-white text-left z-10 font-mulish">
+            <div className="absolute top-1/2 left-16 transform -translate-y-1/2 text-white text-left z-10 font-mulish ">
               <h3 className="text-5xl font-bold mb-4 uppercase">
                 Delivering Excellence,
                 <br /> Every Step of the Way
