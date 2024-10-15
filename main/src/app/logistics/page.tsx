@@ -25,8 +25,8 @@ const Logistics = () => {
             <div className="pt-2 text-center font-mulish">
               <h3 className="text-xl font-bold mt-4">Rail freight</h3>
               <p className="mt-2 text-gray-700">
-                Raffles provides quick and cost-effective rail freight services
-                for domestic and international shipping needs. We offer
+                Maclay-pacific provides quick and cost-effective rail freight
+                services for domestic and international shipping needs. We offer
                 dependable and ecologically responsible transport solutions
                 through our broad network and strategic relationships. Our
                 skilled team manages the entire logistics process, optimizing
@@ -47,11 +47,11 @@ const Logistics = () => {
             <div className="pt-2 text-center font-mulish">
               <h3 className="text-xl font-bold mt-4">Air Freight</h3>
               <p className="mt-2 text-gray-700">
-                Raffles provides quick and dependable air freight services to
-                satisfy time-sensitive shipment requirements. We assure the safe
-                and timely shipment of your cargo through our large network of
-                airline partners. Our skilled team manages every part of the
-                procedure.
+                Maclay-pacific provides quick and dependable air freight
+                services to satisfy time-sensitive shipment requirements. We
+                assure the safe and timely shipment of your cargo through our
+                large network of airline partners. Our skilled team manages
+                every part of the procedure.
               </p>
             </div>
           </div>
@@ -68,8 +68,8 @@ const Logistics = () => {
             <div className="pt-2 text-center font-mulish">
               <h3 className="text-xl font-bold mt-4">Sea Freight</h3>
               <p className="mt-2 text-gray-700">
-                Raffles provides dependable and effective maritime freight
-                services for global shipping requirements. We handle the
+                Maclay-pacific provides dependable and effective maritime
+                freight services for global shipping requirements. We handle the
                 full-container load (FCL) and less-than-container load (LCL)
                 shipments, project cargo, and door-to-door delivery using our
                 broad network and experience.
@@ -91,12 +91,32 @@ const Logistics = () => {
                 Supply chain management
               </h3>
               <p className="mt-2 text-gray-700">
-                Raffles provides comprehensive and personalized supply chain
-                management services to help you optimize and streamline your
-                operations. We employ innovative technologies and industry best
-                practises to improve visibility, cut costs, and improve
+                Maclay-pacific provides comprehensive and personalized supply
+                chain management services to help you optimize and streamline
+                your operations. We employ innovative technologies and industry
+                best practises to improve visibility, cut costs, and improve
                 efficiency in demand planning, inventory management,
                 warehousing, transportation, and order fulfillment.
+              </p>
+            </div>
+          </div>
+          <div className=" bg-white p-4 rounded shadow-lg flex flex-col items-center">
+            <div className="relative w-full h-52 overflow-hidden">
+              <Image
+                src="/img/log-food.png"
+                alt="logo"
+                width={400}
+                height={300}
+                className="object-cover"
+              />
+            </div>
+            <div className="pt-2 text-center font-mulish">
+              <h3 className="text-xl font-bold mt-4">Food supply delivery</h3>
+              <p className="mt-2 text-gray-700">
+                Maclay-pacific provides comprehensive and personalised food
+                supply chain management services to help you streamline and
+                optimise your operations. We are dedicated to sourcing and
+                sourcing reliable food and grocery suppliers.
               </p>
             </div>
           </div>

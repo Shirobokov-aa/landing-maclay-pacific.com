@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import { Mail } from "lucide-react";
-import { Phone } from "lucide-react";
+// import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { MapPinned } from "lucide-react";
 
@@ -17,10 +17,11 @@ function Footer() {
             <Image src="/img/logo-w.svg" alt="logo" width={90} height={55} />
           </div>
           <div className="pt-6 font-mulish">
-            Raffles is a trader who specializes in the sourcing and trading of
-            diverse things. The company facilitates international trade by
-            leveraging its broad network and market knowledge, with an emphasis
-            on hardware, metal scraps, textiles, and ferrous commodities.
+            Maclay-pacific is a trader who specializes in the sourcing and
+            trading of diverse things. The company facilitates international
+            trade by leveraging its broad network and market knowledge, with an
+            emphasis on hardware, metal scraps, textiles, and ferrous
+            commodities.
           </div>
           <div className="flex pt-6 gap-2">
             <Link href="/reach">
@@ -39,20 +40,20 @@ function Footer() {
             Address
           </div>
 
-          <Link
+          {/* <Link
             href="tel:+79991112233"
             className="flex pt-6  hover:text-[#418DD9] font-mulish"
           >
             <Phone />
             <pre> </pre>+7 (999) 11-22
-          </Link>
+          </Link> */}
 
           <Link
-            href="mailto:mail@mail.com"
+            href="mailto:info@maclay-pacific.com"
             className="flex pt-2  hover:text-[#418DD9] font-mulish"
           >
             <Mail />
-            <pre> </pre>mail@mail.com
+            <pre> </pre>info@maclay-pacific.com
           </Link>
 
           <div className="flex pt-2 font-mulish">

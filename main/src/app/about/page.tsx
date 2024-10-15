@@ -26,11 +26,11 @@ const About = () => {
         </h1>
         <div>
           <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
-            Raffles is a Singapore-based significant logistics and trade company
-            that offers comprehensive solutions for freight forwarding, supply
-            chain management, and product trading. Raffles has a considerable
-            presence in the market and has established itself as a reliable and
-            trusted partner for enterprises worldwide.
+            Maclay-pacific is a Singapore-based significant logistics and trade
+            company that offers comprehensive solutions for freight forwarding,
+            supply chain management, and product trading. Maclay-pacific has a
+            considerable presence in the market and has established itself as a
+            reliable and trusted partner for enterprises worldwide.
           </p>
           {/* <div>
             <Image
@@ -42,24 +42,25 @@ const About = () => {
             />
           </div> */}
           <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
-            As a logistics provider, Raffles offers a wide range of services to
-            facilitate the movement of goods efficiently and securely. Their
-            expertise in freight forwarding enables them to handle complex
-            shipping requirements, ensuring timely delivery and cost-effective
-            solutions for clients. Whether its air, sea, or land transportation,
-            Raffles has the capabilities and global network to handle shipments
-            of any size or nature.
+            As a logistics provider, Maclay-pacific offers a wide range of
+            services to facilitate the movement of goods efficiently and
+            securely. Their expertise in freight forwarding enables them to
+            handle complex shipping requirements, ensuring timely delivery and
+            cost-effective solutions for clients. Whether its air, sea, or land
+            transportation, Maclay-pacific has the capabilities and global
+            network to handle shipments of any size or nature.
           </p>
           <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
-            Raffles is a trader who specializes in the sourcing and trading of
-            diverse things. The company facilitates international trade by
-            leveraging its broad network and market knowledge, with an emphasis
-            on hardware, metal scraps, textiles, and ferrous commodities.
+            Maclay-pacific is a trader who specializes in the sourcing and
+            trading of diverse things. The company facilitates international
+            trade by leveraging its broad network and market knowledge, with an
+            emphasis on hardware, metal scraps, textiles, and ferrous
+            commodities.
           </p>
           <p className="pt-6 text-[rgb(26,_26,_26)] font-mulish text-[20px] font-normal leading-[24px]">
             By delivering reliable logistics services, efficient supply chain
-            management, and seamless trading solutions, Raffles remains at the
-            forefront of the industry, driving growth and success for its
+            management, and seamless trading solutions, Maclay-pacific remains
+            at the forefront of the industry, driving growth and success for its
             clients in the dynamic world of international trade.
           </p>
         </div>
@@ -109,8 +110,8 @@ const About = () => {
                 Integrity
               </div>
               <div className="text-[rgb(50,_56,_71)] font-mulish text-[16px] font-normal leading-[140%] pt-4">
-                We conduct all we do on behalf of Raffles with respect and
-                candor.
+                We conduct all we do on behalf of Maclay-pacific with respect
+                and candor.
               </div>
             </div>
             <div className="w-1/3 flex flex-col items-center justify-center">

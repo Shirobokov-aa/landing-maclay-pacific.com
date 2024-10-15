@@ -3,7 +3,7 @@
 import Header from "./../../components/Header";
 import Footer from "./../../components/Footer";
 // import Map from "./../../components/Map";
-import GMap from "./../../components/GMap";
+// import GMap from "./../../components/GMap";
 import React from "react";
 
 import Link from "next/link";
@@ -51,11 +51,11 @@ const Reach = () => {
                     href="mailto:mail@mail.com"
                     className="hover:text-[#418DD9] font-mulish"
                   >
-                    mail@mail.com
+                    info@maclay-pacific.com
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center space-x-4 box-border max-w-xs border-[1px] border-[solid] border-[rgb(238,238,238)] rounded-[16px] bg-[rgb(255,_255,_255)]">
+              {/* <div className="flex items-center space-x-4 box-border max-w-xs border-[1px] border-[solid] border-[rgb(238,238,238)] rounded-[16px] bg-[rgb(255,_255,_255)]">
                 <div className="">
                   <Image
                     src="/img/phone.svg"
@@ -76,7 +76,7 @@ const Reach = () => {
                     +7 (999) 11-22
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="">
@@ -142,7 +142,7 @@ const Reach = () => {
         </div>
       </div>
       <div className="pt-16">
-        <GMap />
+        {/* <GMap /> */}
         {/* <Map /> */}
       </div>
       <Footer />

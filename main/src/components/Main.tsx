@@ -106,8 +106,8 @@ function Main() {
 
               <div className="p-5 font-mulish text-lg uppercase">Traiding</div>
               <div className="text-[rgb(50,_56,_71)] font-mulish text-md font-normal leading-[140%]">
-                Raffles engages in trading activities, specializing in the
-                sourcing and trading of various products. With a focus on
+                Maclay-pacific engages in trading activities, specializing in
+                the sourcing and trading of various products. With a focus on
                 hardware, metal scraps, fabrics, and ferrous materials, the
                 company leverages its extensive network and market knowledge to
                 facilitate international trade.
@@ -147,12 +147,13 @@ function Main() {
           <div className="text-center uppercase">About Us</div>
           <div className="flex flex-col lg:flex-row items-center justify-center relative pt-10">
             <div className="text-[rgb(20,_23,_31)] font-mulish text-lg font-bold leading-[110%]">
-              Raffles: A Trusted Global Leader in Logistics and Trade Solutions
+              Maclay-pacific: A Trusted Global Leader in Logistics and Trade
+              Solutions
               <p className="text-[rgb(26,_33,_47)] font-mulish text-[18px] font-medium leading-[140%] pt-10 max-w-lg w-full">
-                Raffles is a Singapore-based significant logistics and trade
-                company that offers comprehensive solutions for freight
+                Maclay-pacific is a Singapore-based significant logistics and
+                trade company that offers comprehensive solutions for freight
                 forwarding, supply chain management, and product trading.
-                Raffles has a considerable presence in the market and has
+                Maclay-pacific has a considerable presence in the market and has
                 established itself as a reliable and trusted partner for
                 enterprises worldwide.
               </p>

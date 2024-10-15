@@ -34,7 +34,7 @@ function Comment() {
                         />
                       </div>
                       <div className="max-w-md pt-4 text-left pl-4 text-[rgb(26,_33,_47)] font-mulish text-[16px] font-medium leading-[140%]">
-                        Raffles&#96; unmatched expertise in logistics and
+                        Maclay-pacific unmatched expertise in logistics and
                         trading has consistently exceeded our expectations.
                       </div>
                     </div>
@@ -59,9 +59,9 @@ function Comment() {
                         />
                       </div>
                       <div className="max-w-md pt-4 text-left pl-4 text-[rgb(26,_33,_47)] font-mulish text-[16px] font-medium leading-[140%]">
-                        Raffles&#96; global network and commitment to excellence
-                        have been instrumental in our international trading
-                        success.
+                        Maclay-pacific global network and commitment to
+                        excellence have been instrumental in our international
+                        trading success.
                       </div>
                     </div>
                     <div className="flex items-center justify-end pt-10">
@@ -85,8 +85,8 @@ function Comment() {
                         />
                       </div>
                       <div className="max-w-md pt-4 text-left pl-4 text-[rgb(26,_33,_47)] font-mulish text-[16px] font-medium leading-[140%]">
-                        Choosing Raffles for our logistics needs has optimized
-                        our supply chain and reduced costs.
+                        Choosing Maclay-pacific for our logistics needs has
+                        optimized our supply chain and reduced costs.
                       </div>
                     </div>
                     <div className="flex items-center justify-end pt-10">
@@ -109,14 +109,14 @@ function Comment() {
               WHY CHOOSE US
             </div>
             <div className="mt-6 text-[rgb(26,_33,_47)] font-mulish text-[18px] font-medium leading-[140%]">
-              Opting for Raffles for your logistics and trading requirements
-              means partnering with a company rich in industry knowledge and
-              experience. Our wide range of solutions encompasses freight
-              forwarding, supply chain management, and product trading, offering
-              you comprehensive services tailored to your specific needs. We
-              guarantee smooth operations and successful international trade by
-              leveraging a strong global network of partners, agents, and
-              suppliers.
+              Opting for Maclay-pacific for your logistics and trading
+              requirements means partnering with a company rich in industry
+              knowledge and experience. Our wide range of solutions encompasses
+              freight forwarding, supply chain management, and product trading,
+              offering you comprehensive services tailored to your specific
+              needs. We guarantee smooth operations and successful international
+              trade by leveraging a strong global network of partners, agents,
+              and suppliers.
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Mail } from "lucide-react";
-import { Phone } from "lucide-react";
+// import { Phone } from "lucide-react";
 
 import {
   DropdownMenu,
@@ -67,17 +67,17 @@ function Header() {
           <div className="flex min-w-64 justify-end gap-2">
             <div>
               <Link
-                href="mailto:rafflesimpex@gmail.com"
+                href="mailto:info@maclay-pacific.com"
                 className="flex pt-2 group hover:text-[#418DD9] font-mulish"
               >
                 <Mail />
-                <div className="opacity-0 max-w-0 overflow-hidden pl-2 group-hover:opacity-100 group-hover:max-w-xs transition-all duration-700">
-                  rafflesimpex@gmail.com
+                <div className="opacity-0 h-6 max-w-0 overflow-hidden pl-2 group-hover:opacity-100 group-hover:max-w-xs transition-all duration-700">
+                  info@maclay-pacific.com
                 </div>
               </Link>
             </div>
             <div>
-              <Link
+              {/* <Link
                 href="tel:+6590197477"
                 className="flex pt-2 group hover:text-[#418DD9] font-mulish"
               >
@@ -85,7 +85,7 @@ function Header() {
                 <div className="opacity-0 max-w-0 overflow-hidden pl-2 max-h-6 group-hover:opacity-100 group-hover:max-w-xs transition-all duration-700">
                   +65 901-974-77
                 </div>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
