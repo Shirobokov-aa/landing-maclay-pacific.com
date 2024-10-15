@@ -13,9 +13,14 @@ function Footer() {
     <footer className="bg-black text-white pt-14 pb-14">
       <div className="flex flex-col lg:flex-row lg:justify-between mx-auto">
         <div className="lg:w-1/3 px-20">
-          <div className="">
-            <Image src="/img/logo-w.svg" alt="logo" width={90} height={55} />
-          </div>
+          <Link href="/">
+            <Image
+              src="/img/logo-new-w.svg"
+              alt="logo"
+              width={90}
+              height={55}
+            />
+          </Link>
           <div className="pt-6 font-mulish">
             Maclay-pacific is a trader who specializes in the sourcing and
             trading of diverse things. The company facilitates international
@@ -58,7 +63,8 @@ function Footer() {
 
           <div className="flex pt-2 font-mulish">
             <MapPinned />
-            <pre> </pre>544, Hougang Avenue 8 #05-1253 Singapore
+            <pre> </pre>10 ANSON ROAD #02-91, INTERNATIONAL PLAZA, SINGAPORE
+            079903
           </div>
         </div>
         <div className="flex flex-col lg:w-1/3 px-20 font-mulish">

@@ -95,7 +95,7 @@ const Reach = () => {
                       alt="mail"
                       width={90}
                       height={90}
-                      className="w-full h-auto "
+                      className="w-full h-auto"
                     />
                   </div>
                   <div className="">
@@ -103,7 +103,8 @@ const Reach = () => {
                       LOCATION
                     </div>
                     <div className="ext-lg font-mulish">
-                      544, HOUGANG AVENUE <br />8 #05-1253 SINGAPORE (530544)
+                      10 ANSON ROAD #02-91, INTERNATIONAL PLAZA,
+                      <br /> SINGAPORE 079903
                     </div>
                   </div>
                 </div>
